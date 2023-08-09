@@ -33,14 +33,13 @@ body {
 
 @keyframes topics-container-transition {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-
-
+}
 
 /* COLORS EACH LETTER FOR TITLE */
 
@@ -83,12 +82,13 @@ body {
 
 @keyframes topics-container-transition {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
+}
 
 /* ################################################   TOPICS SECTION   ################################################### */
 
@@ -254,7 +254,7 @@ nav a:active {
         justify-content: flex-start;
         position: relative;
         top: 150px;
-        
+
     }
 
     .nav_container {
@@ -282,4 +282,3 @@ nav a:active {
 }
 
 /* ###################################################################################################################### */
-
