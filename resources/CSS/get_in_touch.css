@@ -96,6 +96,7 @@ fieldset {
 
 .radio_buttons {
     display: block;
+    
 }
 
 fieldset {
@@ -106,6 +107,41 @@ input[type=submit] {
     width: 200px;
     height: 40px;
     align-self: center;
+    border: 1px solid rgb(128, 0, 128);
 }
+
+input[type=submit]:hover {
+  transform: scale(1.05);
+  background-color: rgb(255, 192, 203);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+input[type=submit]:active {
+  margin-top: 3px;
+  margin-bottom: -3px;
+}
+
+input[type=text] {
+  border: 1px solid rgb(128, 0, 128);
+  width: 50%;
+}
+
+input[type=email] {
+  border: 1px solid purple;
+  width: 50%;
+}
+
+input[type=tel] {
+  border: 1px solid purple;
+  width: 50%;
+}
+
+#message {
+  border: 1px solid purple;
+}
+
+
+
+
 
 /* ############################################################################################################### */
