@@ -140,8 +140,11 @@ input[type=tel] {
   border: 1px solid purple;
 }
 
-
-
-
+footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 210px;
+}
 
 /* ############################################################################################################### */
