@@ -1,0 +1,134 @@
+body {
+    background-image: url(../images/background_image_5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ###################################################   HEADER   ################################################################ */
+
+/* @@@@@@@@@@@@@@@   Website title @@@@@@@@@@@@@@ */
+
+.web_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.web_title h1 {
+    font-style: italic;
+    margin-bottom: 0;
+    color: #FFDB58;
+    text-shadow: 3px 3px 2px rgba(255, 105, 180, 0.7);
+    font-size: 80px;
+    font-family: 'Space Grotesk';
+    font-weight: bolder;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* @@@@@@@@@@@@@@   Authors tag   @@@@@@@@@@@@@@@ */
+
+.web_title p {
+    margin: 0;
+    color: #FFDB58;
+    text-shadow: 3px 3px 2px rgba(255, 105, 180, 0.7);
+    font-size: 35px;
+    font-family: 'Exo 2';
+    font-weight: bolder;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* ################################################################################################################################# */
+
+/* #####################################################   WEBSITE INTRO    ######################################################## */
+
+/* @@@@@@@@@@@   Page container   @@@@@@@@@@@@@@ */
+
+.page_container {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */    
+
+/* @@@@@@@    Website content container   @@@@@@@@@ */
+
+.website_intro_container {
+
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    flex-basis: 600px;
+    /* width: 600px; */
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(255, 165, 0, 0.8);
+    padding: 25px;
+    box-shadow: -5px 5px 4px rgb(253, 94, 83);
+}
+
+.website_intro_title {
+    font-family: Aoboshi One;
+    font-style: italic;
+    color: #DC143C;
+    margin-top: 0;
+    text-shadow: 1px 1px 1px rgb(30, 144, 255);
+    font-size: 32px;
+}
+
+.website_intro_paragraph {
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    color: #7D3C98;
+    font-weight: 100;
+    line-height: 110%;
+}
+
+.view_topics_link {
+    align-self: flex-end;
+    font-size: 28px;
+    font-style: italic;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    color: #4B0082;
+    text-shadow: 1px 1px 1px rgb(231, 76, 60);
+    font-family: 'Roboto Mono', monospace;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.view_topics_link:hover {
+    transform: scale(1.05);
+    text-shadow: 2px 2px 10px rgb(255, 255, 0);
+    /* transition: transform 0.3s ease, text-shadow 0.3s ease; */
+}
+
+.view_topics_link:active {
+    text-shadow: 2px 2px 1px rgb(255, 105, 180);
+    transition: text-shadow 0s;
+}
+
+/* ################################################################################################################################# */
+
+@media only screen and (max-width: 600px) {
+    .website_intro_container {
+        width: 80%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .web_title h1 {
+        font-size: 50px;
+    }
+
+    .web_title p {
+        font-size: 25px;
+    }
+
+    .page_container {
+        top: 25px;
+    }
+}

@@ -1,0 +1,144 @@
+body {
+    background-image: url(../images/martin-martz-EtybYF-pNzI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ##############################################   NAVIGATION   ################################################### */
+
+.page_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_container {
+    align-self: flex-end;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+  
+  nav a {
+    text-decoration:underline;
+    color:bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 36px;
+    text-shadow: 4px 4px 10px rgb(220, 20, 60, 0.6);
+    transition: text-shadow 0.3s ease;
+  }
+  
+  nav a:hover {
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7);
+  }
+
+  nav li {
+    transition: transform 0.3s ease;
+    margin: 5px;
+  }
+  
+  nav li:hover {
+    transform: scale(1.1);
+  }
+  
+  nav a:active {
+    text-shadow: 3px 3px 1px rgba(255, 105, 180, 1);
+    transition: text-shadow 0.1s ease;
+  }
+
+  .info_container_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact_container {
+    margin: 20px;
+    padding: 25px;
+    width: 40%;
+    height: 825px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(255, 165, 0, 0.8);
+    box-shadow: 0px 0px 16px rgb(178, 34, 34);
+    border-radius: 10px;
+    /* text-align: center; */
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    /* justify-content:left; */
+    /* position: relative; */
+    /* top: 900px; */
+}
+
+.contact_title {
+    font-family: 'Aoboshi One';
+    font-style: italic;
+    font-family: Aoboshi One;
+    color: rgb(220, 20, 60);
+    text-shadow: 2px 2px 2px rgb(25, 25, 112);
+    font-size: 44px;
+    animation-name: contact-title-transition;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+/* @keyframes contact-title-transition {
+  0% {}
+  25% {color: blue;}
+  50% {color: pink;}
+  75% {color: green;}
+  100% {color: yellow;}
+} */
+
+@keyframes contact-title-transition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.css_paragraph {
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    /* color: rgb(0, 0, 255); */
+    /* color: #7D3C98;  */
+    color: rgb(25, 25, 112);
+    font-weight: 500;
+    background-color: rgb(255, 255, 255, 0.4);
+    /* background-color: rgb(130, 195, 103); */
+    /* background-color: rgb(0, 0, 0, 0.3); */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.radio_buttons {
+    display: block;
+}
+
+/* form {
+    border: 2px solid purple;
+} */
+
+fieldset {
+    border: none;
+}
+
+input[type=submit] {
+    width: 200px;
+    height: 40px;
+    align-self: center;
+}
