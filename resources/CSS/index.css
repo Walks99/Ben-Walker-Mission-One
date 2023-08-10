@@ -3,7 +3,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* ###################################################   HEADER   ################################################################ */
@@ -14,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 50px;
 }
 
 .web_title h1 {
@@ -59,7 +65,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 35%;
-    flex-basis: 600px;
+    flex-basis: 650px;
     margin-left: 50px;
     margin-right: 50px;
     background-color: rgba(255, 165, 0, 0.8);
@@ -67,21 +73,24 @@ body {
     box-shadow: -5px 5px 4px rgb(253, 94, 83);
 }
 
-.website_intro_title {
+.website_intro_container h2 {
     font-family: Aoboshi One;
     font-style: italic;
     color: #DC143C;
-    margin-top: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
     text-shadow: 1px 1px 1px rgb(30, 144, 255);
     font-size: 32px;
 }
 
-.website_intro_paragraph {
+.website_intro_container p {
     font-family: 'Roboto Condensed';
     font-size: 18px;
     color: #7D3C98;
     font-weight: 100;
     line-height: 110%;
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
 
 .view_topics_link {
@@ -104,30 +113,6 @@ body {
 .view_topics_link:active {
     text-shadow: 2px 2px 1px rgb(255, 105, 180);
     transition: text-shadow 0s;
-}
-
-/* ################################################################################################################################# */
-
-/* #################################################   MEDIA QUERIES   ############################################################# */
-
-@media only screen and (max-width: 600px) {
-    .website_intro_container {
-        width: 80%;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .web_title h1 {
-        font-size: 50px;
-    }
-
-    .web_title p {
-        font-size: 25px;
-    }
-
-    .page_container {
-        top: 25px;
-    }
 }
 
 /* ################################################################################################################################# */
