@@ -21,7 +21,7 @@ body {
 .color_heading {
     font-style: italic;
     font-family: Aoboshi One;
-    width: 300px;
+    /* width: 300px; */
     padding: 15px;
     margin: auto;
     font-size: 50px;
