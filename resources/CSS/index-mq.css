@@ -6,7 +6,7 @@
   }
 
   .web_title h1 {
-    font-size: 58px;
+    font-size: 2.5rem;
   }
 
   .website_intro_container {
@@ -16,11 +16,11 @@
   }
 
   .web_title p {
-    font-size: 25px;
+    font-size: 1.2rem;
   }
 
   .website_intro_container h2 {
-    font-size: 28px;
+    font-size: 1.5rem;
   }
 
   .view_topics_link:hover {
