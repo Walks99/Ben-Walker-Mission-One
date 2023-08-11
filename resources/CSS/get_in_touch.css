@@ -3,18 +3,25 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .page_container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 /* ##############################################   NAVIGATION   ################################################### */
 
 .nav_container {
-  align-self: flex-end;
+  position: fixed;
+  left: 40px;
+  bottom: 40px;
 }
 
 nav ul {
@@ -27,7 +34,7 @@ nav ul {
 nav a {
   text-decoration: underline;
   color: bisque;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   font-style: italic;
   font-size: 36px;
@@ -69,12 +76,13 @@ nav a:active {
 }
 
 .contact_title {
-  font-family: 'Aoboshi One';
+  font-family: "Aoboshi One";
   font-style: italic;
   font-family: Aoboshi One;
   color: rgb(220, 20, 60);
   text-shadow: 2px 2px 2px rgb(25, 25, 112);
   font-size: 44px;
+  margin-bottom: 50px;
   animation-name: contact-title-transition;
   animation-duration: 4s;
   animation-iteration-count: 1;
@@ -97,48 +105,55 @@ fieldset {
 
 .radio_buttons {
   display: block;
-
 }
 
 fieldset {
   border: none;
 }
 
-input[type=submit] {
+input[type="submit"] {
   width: 200px;
   height: 40px;
   align-self: center;
   border: 1px solid rgb(128, 0, 128);
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   transform: scale(1.05);
   background-color: rgb(255, 192, 203);
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-input[type=submit]:active {
+input[type="submit"]:active {
   margin-top: 3px;
   margin-bottom: -3px;
 }
 
-input[type=text] {
+input[type="text"] {
   border: 1px solid rgb(128, 0, 128);
   width: 50%;
 }
 
-input[type=email] {
+input[type="email"] {
   border: 1px solid purple;
   width: 50%;
 }
 
-input[type=tel] {
+input[type="tel"] {
   border: 1px solid purple;
   width: 50%;
+}
+
+input[placeholder="Your telephone"] {
+  text-align: center;
 }
 
 #message {
   border: 1px solid purple;
+}
+
+textarea[placeholder="Enter your message"] {
+  text-align: center;
 }
 
 footer {
