@@ -145,16 +145,8 @@ input[type="tel"] {
   width: 50%;
 }
 
-input[placeholder="Your telephone"] {
-  text-align: center;
-}
-
 #message {
   border: 1px solid purple;
-}
-
-textarea[placeholder="Enter your message"] {
-  text-align: center;
 }
 
 footer {

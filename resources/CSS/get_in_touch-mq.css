@@ -98,4 +98,12 @@
     width: 80%;
     height: 25px;
   }
+
+  input[placeholder="Your telephone"] {
+    text-align: center;
+  }
+
+  textarea[placeholder="Enter your message"] {
+    text-align: center;
+  }
 }
